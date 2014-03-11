@@ -1,3 +1,4 @@
+user,uid,proc_pid,proc_ppid,path,argv,conn_id,timestamp_epoch_ms,source_port,dest_port,ip_version,source_ip,dest_ip,byte_cnt,packet_cnt
 ,0,1545,1,/usr/lib/vmware-tools/bin32/appLoader,,4134135488,1371770084358,54232,53,4,10.32.92.230,70.0.0.1,144,2
 ,0,1545,1,/usr/lib/vmware-tools/bin32/appLoader,,4106720000,1371770264871,50426,80,4,10.32.92.230,78.129.205.42,715616,817
 ,0,3386,3375,/usr/bin/wget,,4106720000,1371770308229,50427,80,4,10.32.92.230,78.129.205.42,7854838,8951
