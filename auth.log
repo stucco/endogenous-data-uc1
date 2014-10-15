@@ -1,0 +1,340 @@
+Jun 19 18:17:01 sittingduck9-1 CRON[1846]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 19 18:17:01 sittingduck9-1 CRON[1846]: pam_unix(cron:session): session closed for user root
+Jun 19 19:17:01 sittingduck9-1 CRON[1850]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 19 19:17:01 sittingduck9-1 CRON[1850]: pam_unix(cron:session): session closed for user root
+Jun 19 20:17:01 sittingduck9-1 CRON[1854]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 19 20:17:01 sittingduck9-1 CRON[1854]: pam_unix(cron:session): session closed for user root
+Jun 19 21:17:01 sittingduck9-1 CRON[1858]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 19 21:17:01 sittingduck9-1 CRON[1858]: pam_unix(cron:session): session closed for user root
+Jun 19 22:16:05 sittingduck9-1 gdm-session-worker[1657]: pam_unix(gdm:session): session opened for user user by (uid=0)
+Jun 19 22:16:05 sittingduck9-1 gdm-session-worker[1657]: pam_ck_connector(gdm:session): nox11 mode, ignoring PAM_TTY :0
+Jun 19 22:16:06 sittingduck9-1 seahorse-daemon[1959]: init gpgme version 1.1.8
+Jun 19 22:16:12 sittingduck9-1 dbus-daemon: Rejected send message, 3 matched rules; type="method_call", sender=":1.58" (uid=1000 pid=2090 comm="/usr/lib/indicator-messages/indicator-messages-ser") interface="org.freedesktop.DBus.Introspectable" member="Introspect" error name="(unset)" requested_reply=0 destination=":1.16" (uid=0 pid=1067 comm="/sbin/wpa_supplicant))
+Jun 19 22:17:01 sittingduck9-1 CRON[2094]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 19 22:17:01 sittingduck9-1 CRON[2094]: pam_unix(cron:session): session closed for user root
+Jun 19 22:17:34 sittingduck9-1 sudo:     user : TTY=unknown ; PWD=/home/user ; USER=root ; COMMAND=/usr/sbin/synaptic
+Jun 19 22:17:51 sittingduck9-1 gnome-keyring-daemon[1879]: unsupported key algorithm in certificate: 1.2.840.10045.2.1
+Jun 19 22:17:51 sittingduck9-1 gnome-keyring-daemon[1879]: invalid subject public-key info
+Jun 19 22:17:51 sittingduck9-1 gnome-keyring-daemon[1879]: couldn't parse certificate key data
+Jun 19 22:17:51 sittingduck9-1 gnome-keyring-daemon[1879]: couldn't parse certificate(s): /etc/ssl/certs/COMODO_ECC_Certification_Authority.pem
+Jun 19 22:17:51 sittingduck9-1 gnome-keyring-daemon[1879]: couldn't parse certificate data
+Jun 19 22:17:51 sittingduck9-1 gnome-keyring-daemon[1879]: couldn't parse certificate(s): /etc/ssl/certs/COMODO_ECC_Certification_Authority.pem
+Jun 19 22:17:51 sittingduck9-1 gnome-keyring-daemon[1879]: unsupported key algorithm in certificate: 1.2.840.10045.2.1
+Jun 19 22:17:51 sittingduck9-1 gnome-keyring-daemon[1879]: invalid subject public-key info
+Jun 19 22:17:51 sittingduck9-1 gnome-keyring-daemon[1879]: couldn't parse certificate key data
+Jun 19 22:17:51 sittingduck9-1 gnome-keyring-daemon[1879]: couldn't parse certificate(s): /etc/ssl/certs/ca-certificates.crt
+Jun 19 22:17:53 sittingduck9-1 sshd[2137]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=localhost  user=fred
+Jun 19 22:17:55 sittingduck9-1 sshd[2137]: Failed password for fred from ::1 port 58162 ssh2
+Jun 19 22:18:02 sittingduck9-1 sshd[2137]: Failed password for fred from ::1 port 58162 ssh2
+Jun 19 22:18:11 sittingduck9-1 sshd[2137]: Failed password for fred from ::1 port 58162 ssh2
+Jun 19 22:18:11 sittingduck9-1 sshd[2137]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=localhost  user=fred
+Jun 19 22:19:38 sittingduck9-1 sudo:     user : TTY=pts/0 ; PWD=/home/user ; USER=root ; COMMAND=/usr/bin/gedit /etc/ssh/ssh_config
+Jun 19 22:20:39 sittingduck9-1 sudo:     user : TTY=pts/0 ; PWD=/home/user ; USER=root ; COMMAND=/usr/bin/gedit /etc/ssh/sshd_config
+Jun 19 22:21:19 sittingduck9-1 sshd[2198]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=localhost  user=fred
+Jun 19 22:21:21 sittingduck9-1 sshd[2198]: Failed password for fred from ::1 port 55048 ssh2
+Jun 19 22:21:26 sittingduck9-1 sshd[2198]: Failed password for fred from ::1 port 55048 ssh2
+Jun 19 22:21:35 sittingduck9-1 sshd[2198]: Failed password for fred from ::1 port 55048 ssh2
+Jun 19 22:21:35 sittingduck9-1 sshd[2198]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=localhost  user=fred
+Jun 19 22:21:59 sittingduck9-1 sudo:     user : TTY=pts/0 ; PWD=/home/user ; USER=root ; COMMAND=/usr/bin/gedit /etc/ssh/sshd_config
+Jun 19 22:53:02 sittingduck9-1 sshd[1017]: Server listening on 0.0.0.0 port 22.
+Jun 19 22:53:02 sittingduck9-1 sshd[1017]: Server listening on :: port 22.
+Jun 19 22:55:50 sittingduck9-1 gdm-session-worker[1648]: pam_unix(gdm:session): session opened for user user by (uid=0)
+Jun 19 22:55:50 sittingduck9-1 gdm-session-worker[1648]: pam_ck_connector(gdm:session): nox11 mode, ignoring PAM_TTY :0
+Jun 19 22:55:51 sittingduck9-1 seahorse-daemon[1759]: init gpgme version 1.1.8
+Jun 19 22:55:56 sittingduck9-1 dbus-daemon: Rejected send message, 3 matched rules; type="method_call", sender=":1.52" (uid=1000 pid=1882 comm="/usr/lib/indicator-messages/indicator-messages-ser") interface="org.freedesktop.DBus.Introspectable" member="Introspect" error name="(unset)" requested_reply=0 destination=":1.13" (uid=0 pid=935 comm="/sbin/wpa_supplicant))
+Jun 19 23:02:41 mary sshd[1039]: Server listening on 0.0.0.0 port 22.
+Jun 19 23:02:41 mary sshd[1039]: Server listening on :: port 22.
+Jun 19 23:08:29 mary gdm-session-worker[1663]: pam_unix(gdm:session): session opened for user user by (uid=0)
+Jun 19 23:08:29 mary gdm-session-worker[1663]: pam_ck_connector(gdm:session): nox11 mode, ignoring PAM_TTY :0
+Jun 19 23:08:30 mary seahorse-daemon[1801]: init gpgme version 1.1.8
+Jun 19 23:08:35 mary dbus-daemon: Rejected send message, 3 matched rules; type="method_call", sender=":1.52" (uid=1000 pid=1923 comm="/usr/lib/indicator-messages/indicator-messages-ser") interface="org.freedesktop.DBus.Introspectable" member="Introspect" error name="(unset)" requested_reply=0 destination=":1.11" (uid=0 pid=939 comm="/sbin/wpa_supplicant))
+Jun 19 23:09:02 mary sshd[1934]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=sittingduck9-2.local  user=fred
+Jun 19 23:09:04 mary sshd[1934]: Failed password for fred from 10.32.92.234 port 60382 ssh2
+Jun 19 23:09:08 mary sshd[1934]: Failed password for fred from 10.32.92.234 port 60382 ssh2
+Jun 19 23:09:25 mary sshd[1934]: Failed password for fred from 10.32.92.234 port 60382 ssh2
+Jun 19 23:09:25 mary sshd[1934]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=sittingduck9-2.local  user=fred
+Jun 19 23:11:51 mary sudo: pam_unix(sudo:auth): authentication failure; logname=user uid=0 euid=0 tty=/dev/pts/0 ruser= rhost=  user=user
+Jun 19 23:11:56 mary sudo:     user : TTY=pts/0 ; PWD=/home/user ; USER=root ; COMMAND=/usr/bin/gedit /etc/ssh/sshd_config
+Jun 19 23:12:40 mary sudo:     user : TTY=pts/0 ; PWD=/home/user ; USER=root ; COMMAND=/sbin/stop openssh-server
+Jun 19 23:12:45 mary sudo:     user : TTY=pts/0 ; PWD=/home/user ; USER=root ; COMMAND=/sbin/stop sshd
+Jun 19 23:15:25 mary sshd[1018]: Server listening on 0.0.0.0 port 22.
+Jun 19 23:15:25 mary sshd[1018]: Server listening on :: port 22.
+Jun 19 23:17:01 mary CRON[1683]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 19 23:17:01 mary CRON[1683]: pam_unix(cron:session): session closed for user root
+Jun 19 23:18:28 mary sshd[1688]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=sittingduck9-2.local  user=fred
+Jun 19 23:18:30 mary sshd[1686]: error: PAM: Authentication failure for fred from sittingduck9-2.local
+Jun 19 23:18:38 mary sshd[1690]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=sittingduck9-2.local  user=fred
+Jun 19 23:18:40 mary sshd[1686]: error: PAM: Authentication failure for fred from sittingduck9-2.local
+Jun 19 23:18:42 mary sshd[1691]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=sittingduck9-2.local  user=fred
+Jun 19 23:18:44 mary sshd[1686]: error: PAM: Authentication failure for fred from sittingduck9-2.local
+Jun 19 23:18:44 mary sshd[1686]: Failed keyboard-interactive/pam for fred from 10.32.92.234 port 35190 ssh2
+Jun 19 23:18:50 mary sshd[1686]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=sittingduck9-2.local  user=fred
+Jun 19 23:18:52 mary sshd[1686]: Failed password for fred from 10.32.92.234 port 35190 ssh2
+Jun 19 23:18:57 mary sshd[1686]: Failed password for fred from 10.32.92.234 port 35190 ssh2
+Jun 19 23:19:01 mary sshd[1686]: Failed password for fred from 10.32.92.234 port 35190 ssh2
+Jun 19 23:19:01 mary sshd[1686]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=sittingduck9-2.local  user=fred
+Jun 19 23:19:19 mary sshd[1694]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=sittingduck9-2.local  user=fred
+Jun 19 23:19:22 mary sshd[1692]: error: PAM: Authentication failure for fred from sittingduck9-2.local
+Jun 19 23:19:25 mary sshd[1695]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=sittingduck9-2.local  user=fred
+Jun 19 23:19:27 mary sshd[1692]: error: PAM: Authentication failure for fred from sittingduck9-2.local
+Jun 19 23:19:29 mary sshd[1696]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=sittingduck9-2.local  user=fred
+Jun 19 23:19:31 mary sshd[1692]: error: PAM: Authentication failure for fred from sittingduck9-2.local
+Jun 19 23:19:31 mary sshd[1692]: Failed keyboard-interactive/pam for fred from 10.32.92.234 port 35191 ssh2
+Jun 19 23:19:34 mary sshd[1692]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=sittingduck9-2.local  user=fred
+Jun 19 23:19:37 mary sshd[1692]: Failed password for fred from 10.32.92.234 port 35191 ssh2
+Jun 19 23:19:42 mary sshd[1692]: Failed password for fred from 10.32.92.234 port 35191 ssh2
+Jun 19 23:19:46 mary sshd[1692]: Failed password for fred from 10.32.92.234 port 35191 ssh2
+Jun 19 23:19:46 mary sshd[1692]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=sittingduck9-2.local  user=fred
+Jun 19 23:19:55 mary gdm-session-worker[1639]: pam_unix(gdm:session): session opened for user user by (uid=0)
+Jun 19 23:19:55 mary gdm-session-worker[1639]: pam_ck_connector(gdm:session): nox11 mode, ignoring PAM_TTY :0
+Jun 19 23:19:57 mary seahorse-daemon[1794]: init gpgme version 1.1.8
+Jun 19 23:20:02 mary dbus-daemon: Rejected send message, 3 matched rules; type="method_call", sender=":1.52" (uid=1000 pid=1914 comm="/usr/lib/indicator-messages/indicator-messages-ser") interface="org.freedesktop.DBus.Introspectable" member="Introspect" error name="(unset)" requested_reply=0 destination=":1.13" (uid=0 pid=903 comm="/sbin/wpa_supplicant))
+Jun 19 23:20:31 mary gnome-keyring-daemon[1713]: unsupported key algorithm in certificate: 1.2.840.10045.2.1
+Jun 19 23:20:31 mary gnome-keyring-daemon[1713]: invalid subject public-key info
+Jun 19 23:20:31 mary gnome-keyring-daemon[1713]: couldn't parse certificate key data
+Jun 19 23:20:31 mary gnome-keyring-daemon[1713]: couldn't parse certificate(s): /etc/ssl/certs/COMODO_ECC_Certification_Authority.pem
+Jun 19 23:20:31 mary gnome-keyring-daemon[1713]: couldn't parse certificate data
+Jun 19 23:20:31 mary gnome-keyring-daemon[1713]: couldn't parse certificate(s): /etc/ssl/certs/COMODO_ECC_Certification_Authority.pem
+Jun 19 23:20:31 mary gnome-keyring-daemon[1713]: unsupported key algorithm in certificate: 1.2.840.10045.2.1
+Jun 19 23:20:31 mary gnome-keyring-daemon[1713]: invalid subject public-key info
+Jun 19 23:20:31 mary gnome-keyring-daemon[1713]: couldn't parse certificate key data
+Jun 19 23:20:31 mary gnome-keyring-daemon[1713]: couldn't parse certificate(s): /etc/ssl/certs/ca-certificates.crt
+Jun 19 23:20:34 mary sshd[1954]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=localhost  user=fred
+Jun 19 23:20:36 mary sshd[1951]: error: PAM: Authentication failure for fred from localhost
+Jun 19 23:20:39 mary sshd[1955]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=localhost  user=fred
+Jun 19 23:20:41 mary sshd[1951]: error: PAM: Authentication failure for fred from localhost
+Jun 19 23:20:43 mary sshd[1956]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=localhost  user=fred
+Jun 19 23:20:46 mary sshd[1951]: error: PAM: Authentication failure for fred from localhost
+Jun 19 23:20:46 mary sshd[1951]: Failed keyboard-interactive/pam for fred from ::1 port 41271 ssh2
+Jun 19 23:20:48 mary sshd[1951]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=localhost  user=fred
+Jun 19 23:20:50 mary sshd[1951]: Failed password for fred from ::1 port 41271 ssh2
+Jun 19 23:20:51 mary sshd[1951]: Failed password for fred from ::1 port 41271 ssh2
+Jun 19 23:20:52 mary sshd[1951]: Failed password for fred from ::1 port 41271 ssh2
+Jun 19 23:21:02 mary sudo:     user : TTY=pts/0 ; PWD=/home/user ; USER=root ; COMMAND=/usr/bin/gedit /etc/ssh/sshd_config
+Jun 19 23:21:23 mary sudo:     user : TTY=pts/0 ; PWD=/home/user ; USER=root ; COMMAND=/usr/bin/gedit /etc/ssh/ssd_config
+Jun 19 23:21:33 mary sudo:     user : TTY=pts/0 ; PWD=/home/user ; USER=root ; COMMAND=/usr/bin/gedit /etc/ssh/ssh_config
+Jun 19 23:21:46 mary sudo:     user : TTY=pts/0 ; PWD=/home/user ; USER=root ; COMMAND=/usr/bin/gedit /etc/ssh/sshd_config
+Jun 19 23:23:50 mary sudo:     user : TTY=pts/0 ; PWD=/home/user ; USER=root ; COMMAND=/etc/init.d/ssh restart
+Jun 19 23:23:50 mary sshd[1018]: Received signal 15; terminating.
+Jun 19 23:23:50 mary sshd[2026]: Server listening on 0.0.0.0 port 22.
+Jun 19 23:23:50 mary sshd[2026]: Server listening on :: port 22.
+Jun 19 23:24:02 mary sshd[2031]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=localhost  user=fred
+Jun 19 23:24:04 mary sshd[2031]: Failed password for fred from ::1 port 42889 ssh2
+Jun 19 23:24:24 mary gdm-session-worker[2096]: pam_unix(gdm:auth): authentication failure; logname= uid=0 euid=0 tty=:1 ruser= rhost=  user=fred
+Jun 19 23:24:32 mary gdm-session-worker[2111]: pam_unix(gdm:auth): authentication failure; logname= uid=0 euid=0 tty=:1 ruser= rhost=  user=fred
+Jun 19 23:24:38 mary gdm-session-worker[2115]: pam_unix(gdm:auth): authentication failure; logname= uid=0 euid=0 tty=:1 ruser= rhost=  user=fred
+Jun 19 23:24:47 mary gdm-session-worker[2119]: pam_unix(gdm:auth): authentication failure; logname= uid=0 euid=0 tty=:1 ruser= rhost=  user=fred
+Jun 19 23:25:49 mary gdm-session-worker[2138]: pam_unix(gdm:auth): authentication failure; logname= uid=0 euid=0 tty=:1 ruser= rhost=  user=fred
+Jun 19 23:25:59 mary gdm-session-worker[2203]: pam_unix(gdm:auth): authentication failure; logname= uid=0 euid=0 tty=:1 ruser= rhost=  user=fred
+Jun 19 23:26:09 mary gdm-session-worker[2207]: pam_unix(gdm:auth): authentication failure; logname= uid=0 euid=0 tty=:1 ruser= rhost=  user=fred
+Jun 19 23:27:34 mary sshd[1022]: Server listening on 0.0.0.0 port 22.
+Jun 19 23:27:34 mary sshd[1022]: Server listening on :: port 22.
+Jun 19 23:28:18 mary gdm-session-worker[1665]: pam_unix(gdm:auth): authentication failure; logname= uid=0 euid=0 tty=:0 ruser= rhost=  user=fred
+Jun 19 23:28:31 mary gdm-session-worker[1711]: pam_unix(gdm:auth): conversation failed
+Jun 19 23:28:31 mary gdm-session-worker[1711]: pam_unix(gdm:auth): auth could not identify password for [user]
+Jun 19 23:28:38 mary gdm-session-worker[1717]: pam_unix(gdm:auth): authentication failure; logname= uid=0 euid=0 tty=:0 ruser= rhost=  user=fred
+Jun 19 23:29:17 mary gdm-session-worker[1719]: pam_unix(gdm:auth): authentication failure; logname= uid=0 euid=0 tty=:0 ruser= rhost=  user=fred
+Jun 19 23:30:05 mary gdm-session-worker[1723]: pam_unix(gdm:auth): authentication failure; logname= uid=0 euid=0 tty=:0 ruser= rhost=  user=fred
+Jun 19 23:30:29 mary sshd[1730]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=sittingduck9-2.local  user=fred
+Jun 19 23:30:31 mary sshd[1730]: Failed password for fred from 10.32.92.234 port 54834 ssh2
+Jun 19 23:30:36 mary sshd[1730]: Failed password for fred from 10.32.92.234 port 54834 ssh2
+Jun 19 23:30:41 mary sshd[1730]: Failed password for fred from 10.32.92.234 port 54834 ssh2
+Jun 19 23:30:41 mary sshd[1730]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=sittingduck9-2.local  user=fred
+Jun 19 23:30:54 mary gdm-session-worker[1727]: pam_unix(gdm:session): session opened for user user by (uid=0)
+Jun 19 23:30:54 mary gdm-session-worker[1727]: pam_ck_connector(gdm:session): nox11 mode, ignoring PAM_TTY :0
+Jun 19 23:30:55 mary seahorse-daemon[1826]: init gpgme version 1.1.8
+Jun 19 23:31:00 mary dbus-daemon: Rejected send message, 3 matched rules; type="method_call", sender=":1.52" (uid=1000 pid=1948 comm="/usr/lib/indicator-messages/indicator-messages-ser") interface="org.freedesktop.DBus.Introspectable" member="Introspect" error name="(unset)" requested_reply=0 destination=":1.12" (uid=0 pid=968 comm="/sbin/wpa_supplicant))
+Jun 19 23:32:03 mary gdm-session-worker[2050]: pam_unix(gdm:auth): authentication failure; logname= uid=0 euid=0 tty=:1 ruser= rhost=  user=fred
+Jun 20 00:17:41 mary sshd[993]: Server listening on 0.0.0.0 port 22.
+Jun 20 00:17:41 mary sshd[993]: Server listening on :: port 22.
+Jun 20 00:18:45 mary gdm-session-worker[1658]: pam_unix(gdm:session): session opened for user user by (uid=0)
+Jun 20 00:18:45 mary gdm-session-worker[1658]: pam_ck_connector(gdm:session): nox11 mode, ignoring PAM_TTY :0
+Jun 20 00:19:30 mary sudo:     user : TTY=pts/0 ; PWD=/home/user ; USER=root ; COMMAND=/usr/bin/passwd fred
+Jun 20 00:19:35 mary passwd[1791]: pam_unix(passwd:chauthtok): password changed for fred
+Jun 20 00:19:35 mary passwd[1791]: gkr-pam: couldn't update the 'login' keyring password: no old password was entered
+Jun 20 00:19:37 mary gdm-session-worker[1658]: pam_unix(gdm:session): session closed for user user
+Jun 20 00:19:51 mary gdm-session-worker[1858]: pam_unix(gdm:session): session opened for user fred by (uid=0)
+Jun 20 00:19:51 mary gdm-session-worker[1858]: pam_ck_connector(gdm:session): nox11 mode, ignoring PAM_TTY :0
+Jun 20 00:19:52 mary seahorse-daemon[1965]: init gpgme version 1.1.8
+Jun 20 00:19:57 mary dbus-daemon: Rejected send message, 3 matched rules; type="method_call", sender=":1.64" (uid=1002 pid=2083 comm="/usr/lib/indicator-messages/indicator-messages-ser") interface="org.freedesktop.DBus.Introspectable" member="Introspect" error name="(unset)" requested_reply=0 destination=":1.13" (uid=0 pid=1013 comm="/sbin/wpa_supplicant))
+Jun 20 00:20:56 mary gdm-session-worker[1858]: pam_unix(gdm:session): session closed for user fred
+Jun 20 00:21:09 mary gdm-session-worker[2185]: pam_unix(gdm:session): session opened for user user by (uid=0)
+Jun 20 00:21:09 mary gdm-session-worker[2185]: pam_ck_connector(gdm:session): nox11 mode, ignoring PAM_TTY :0
+Jun 20 00:21:33 mary gdm-session-worker[2185]: pam_unix(gdm:session): session closed for user user
+Jun 20 00:21:51 mary gdm-session-worker[2357]: pam_unix(gdm:session): session opened for user user by (uid=0)
+Jun 20 00:21:51 mary gdm-session-worker[2357]: pam_ck_connector(gdm:session): nox11 mode, ignoring PAM_TTY :0
+Jun 20 00:21:52 mary seahorse-daemon[2464]: init gpgme version 1.1.8
+Jun 20 00:21:57 mary dbus-daemon: Rejected send message, 3 matched rules; type="method_call", sender=":1.113" (uid=1000 pid=2582 comm="/usr/lib/indicator-messages/indicator-messages-ser") interface="org.freedesktop.DBus.Introspectable" member="Introspect" error name="(unset)" requested_reply=0 destination=":1.13" (uid=0 pid=1013 comm="/sbin/wpa_supplicant))
+Jun 20 00:22:53 mary sudo:     root : TTY=unknown ; PWD=/ ; USER=user ; COMMAND=/usr/bin/gconftool --get /system/http_proxy/use_http_proxy
+Jun 20 00:22:53 mary sudo:     root : TTY=unknown ; PWD=/ ; USER=user ; COMMAND=/usr/bin/gconftool --get /system/http_proxy/host
+Jun 20 00:22:53 mary sudo:     root : TTY=unknown ; PWD=/ ; USER=user ; COMMAND=/usr/bin/gconftool --get /system/http_proxy/port
+Jun 20 00:38:11 mary gnome-keyring-daemon[2386]: removing removable location: /media/cdrom0
+Jun 20 00:38:11 mary gnome-keyring-daemon[2386]: no volume registered at: /media/cdrom0
+Jun 20 01:17:01 mary CRON[2941]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 20 01:17:01 mary CRON[2941]: pam_unix(cron:session): session closed for user root
+Jun 20 02:17:01 mary CRON[2945]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 20 02:17:01 mary CRON[2945]: pam_unix(cron:session): session closed for user root
+Jun 20 03:17:01 mary CRON[2949]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 20 03:17:01 mary CRON[2949]: pam_unix(cron:session): session closed for user root
+Jun 20 04:17:01 mary CRON[2953]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 20 04:17:01 mary CRON[2953]: pam_unix(cron:session): session closed for user root
+Jun 20 05:17:01 mary CRON[2957]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 20 05:17:01 mary CRON[2957]: pam_unix(cron:session): session closed for user root
+Jun 20 06:17:01 mary CRON[2961]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 20 06:17:01 mary CRON[2961]: pam_unix(cron:session): session closed for user root
+Jun 20 06:25:01 mary CRON[2965]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 20 06:25:01 mary CRON[2965]: pam_unix(cron:session): session closed for user root
+Jun 20 07:17:01 mary CRON[2968]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 20 07:17:01 mary CRON[2968]: pam_unix(cron:session): session closed for user root
+Jun 20 07:30:01 mary CRON[2972]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 20 07:30:01 mary CRON[2972]: pam_unix(cron:session): session closed for user root
+Jun 20 08:17:01 mary CRON[2978]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 20 08:17:01 mary CRON[2978]: pam_unix(cron:session): session closed for user root
+Jun 20 09:17:01 mary CRON[2982]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 20 09:17:01 mary CRON[2982]: pam_unix(cron:session): session closed for user root
+Jun 20 10:17:01 mary CRON[2986]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 20 10:17:01 mary CRON[2986]: pam_unix(cron:session): session closed for user root
+Jun 20 11:17:01 mary CRON[2990]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 20 11:17:01 mary CRON[2990]: pam_unix(cron:session): session closed for user root
+Jun 20 12:17:01 mary CRON[2994]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 20 12:17:01 mary CRON[2994]: pam_unix(cron:session): session closed for user root
+Jun 20 13:17:01 mary CRON[2998]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 20 13:17:01 mary CRON[2998]: pam_unix(cron:session): session closed for user root
+Jun 20 14:17:01 mary CRON[3002]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 20 14:17:01 mary CRON[3002]: pam_unix(cron:session): session closed for user root
+Jun 20 14:36:05 mary polkit-agent-helper-1[3070]: pam_unix(polkit-1:auth): authentication failure; logname= uid=1000 euid=0 tty= ruser=user rhost=  user=user
+Jun 20 14:46:17 mary polkit-agent-helper-1[3207]: pam_unix(polkit-1:auth): authentication failure; logname= uid=1000 euid=0 tty= ruser=user rhost=  user=user
+Jun 20 15:17:01 mary CRON[3221]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 20 15:17:01 mary CRON[3221]: pam_unix(cron:session): session closed for user root
+Jun 20 16:08:37 mary sudo:     user : TTY=pts/0 ; PWD=/home/user ; USER=root ; COMMAND=/sbin/modprobe honeevent
+Jun 20 16:08:50 mary sudo:     user : TTY=pts/0 ; PWD=/home/user ; USER=root ; COMMAND=/bin/cat /dev/honet
+Jun 20 16:09:28 mary sudo:     user : TTY=pts/2 ; PWD=/home/user ; USER=root ; COMMAND=/home/user/honelogd -f /home/user/hone.pcap-ng
+Jun 20 16:15:06 mary sshd[3283]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=79.116.146.15  user=fred
+Jun 20 16:15:09 mary sshd[3283]: Failed password for fred from 79.116.146.15 port 2086 ssh2
+Jun 20 16:15:16 mary sshd[3283]: Failed password for fred from 79.116.146.15 port 2086 ssh2
+Jun 20 16:15:25 mary sshd[3283]: Failed password for fred from 79.116.146.15 port 2086 ssh2
+Jun 20 16:15:40 mary sshd[3283]: Accepted password for fred from 79.116.146.15 port 2086 ssh2
+Jun 20 16:15:40 mary sshd[3283]: pam_unix(sshd:session): session opened for user fred by (uid=0)
+Jun 20 16:17:01 mary CRON[3363]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 20 16:17:01 mary CRON[3363]: pam_unix(cron:session): session closed for user root
+Jun 20 16:17:04 mary sudo:     fred : TTY=pts/4 ; PWD=/tmp ; USER=root ; COMMAND=./sudoedit /etc/hosts
+Jun 20 16:17:04 mary su[3367]: Successful su for root by root
+Jun 20 16:17:04 mary su[3367]: + /dev/pts/4 root:root
+Jun 20 16:17:04 mary su[3367]: pam_unix(su:session): session opened for user root by fred(uid=0)
+Jun 20 16:27:52 mary chsh[9294]: changed user 'bin' shell to '/bin/bash'
+Jun 20 16:27:52 mary sshd[993]: Received signal 15; terminating.
+Jun 20 16:27:52 mary sshd[9309]: Server listening on 0.0.0.0 port 22.
+Jun 20 16:27:52 mary sshd[9309]: Server listening on :: port 22.
+Jun 20 16:27:52 mary sshd[9309]: Received signal 15; terminating.
+Jun 20 16:27:52 mary sshd[9328]: Server listening on 0.0.0.0 port 22.
+Jun 20 16:27:52 mary sshd[9328]: Server listening on :: port 22.
+Jun 20 16:32:01 mary CRON[9354]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 20 16:32:01 mary CRON[9354]: pam_unix(cron:session): session closed for user root
+Jun 20 16:33:01 mary CRON[9360]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 20 16:33:01 mary CRON[9360]: pam_unix(cron:session): session closed for user root
+Jun 20 16:34:01 mary CRON[9367]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 20 16:34:01 mary CRON[9367]: pam_unix(cron:session): session closed for user root
+Jun 20 16:35:01 mary CRON[9374]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 20 16:35:01 mary CRON[9374]: pam_unix(cron:session): session closed for user root
+Jun 20 16:36:01 mary CRON[9381]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 20 16:36:01 mary CRON[9381]: pam_unix(cron:session): session closed for user root
+Jun 20 16:37:01 mary CRON[9390]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 20 16:37:01 mary CRON[9390]: pam_unix(cron:session): session closed for user root
+Jun 20 16:38:01 mary CRON[9400]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 20 16:38:01 mary CRON[9400]: pam_unix(cron:session): session closed for user root
+Jun 20 16:39:01 mary CRON[9407]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 20 16:39:01 mary CRON[9407]: pam_unix(cron:session): session closed for user root
+Jun 20 16:40:01 mary CRON[9413]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 20 16:40:01 mary CRON[9413]: pam_unix(cron:session): session closed for user root
+Jun 20 16:41:01 mary CRON[9420]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 20 16:41:01 mary CRON[9420]: pam_unix(cron:session): session closed for user root
+Jun 20 16:42:01 mary CRON[9465]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 20 16:42:01 mary CRON[9465]: pam_unix(cron:session): session closed for user root
+Jun 20 16:43:01 mary CRON[9471]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 20 16:43:01 mary CRON[9471]: pam_unix(cron:session): session closed for user root
+Jun 20 16:44:01 mary CRON[9480]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 20 16:44:01 mary CRON[9480]: pam_unix(cron:session): session closed for user root
+Jun 20 16:44:53 mary su[3367]: pam_unix(su:session): session closed for user root
+Jun 20 16:44:53 mary su[9495]: Successful su for root by root
+Jun 20 16:44:53 mary su[9495]: + /dev/pts/4 root:root
+Jun 20 16:44:53 mary su[9495]: pam_unix(su:session): session opened for user root by (uid=0)
+Jun 20 16:45:01 mary CRON[9520]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 20 16:45:01 mary CRON[9520]: pam_unix(cron:session): session closed for user root
+Jun 20 16:46:01 mary CRON[9526]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 20 16:46:01 mary CRON[9526]: pam_unix(cron:session): session closed for user root
+Jun 20 16:47:01 mary CRON[9532]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 20 16:47:01 mary CRON[9532]: pam_unix(cron:session): session closed for user root
+Jun 20 16:48:01 mary CRON[9539]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 20 16:48:01 mary CRON[9539]: pam_unix(cron:session): session closed for user root
+Jun 20 16:49:01 mary CRON[9545]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 20 16:49:01 mary CRON[9545]: pam_unix(cron:session): session closed for user root
+Jun 20 16:50:01 mary CRON[9551]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 20 16:50:01 mary CRON[9551]: pam_unix(cron:session): session closed for user root
+Jun 20 16:51:01 mary CRON[9557]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 20 16:51:01 mary CRON[9557]: pam_unix(cron:session): session closed for user root
+Jun 20 16:52:01 mary CRON[9563]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 20 16:52:01 mary CRON[9563]: pam_unix(cron:session): session closed for user root
+Jun 20 16:53:01 mary CRON[9569]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 20 16:53:01 mary CRON[9569]: pam_unix(cron:session): session closed for user root
+Jun 20 16:54:01 mary CRON[9576]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 20 16:54:01 mary CRON[9576]: pam_unix(cron:session): session closed for user root
+Jun 20 16:55:01 mary CRON[9582]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 20 16:55:01 mary CRON[9582]: pam_unix(cron:session): session closed for user root
+Jun 20 16:56:01 mary CRON[9588]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 20 16:56:01 mary CRON[9588]: pam_unix(cron:session): session closed for user root
+Jun 20 16:57:01 mary CRON[9594]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 20 16:57:01 mary CRON[9594]: pam_unix(cron:session): session closed for user root
+Jun 20 16:58:01 mary CRON[9600]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 20 16:58:01 mary CRON[9600]: pam_unix(cron:session): session closed for user root
+Jun 20 16:59:01 mary CRON[9607]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 20 16:59:01 mary CRON[9607]: pam_unix(cron:session): session closed for user root
+Jun 20 17:00:01 mary CRON[9615]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 20 17:00:01 mary CRON[9615]: pam_unix(cron:session): session closed for user root
+Jun 20 17:01:02 mary CRON[9621]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 20 17:01:02 mary CRON[9621]: pam_unix(cron:session): session closed for user root
+Jun 20 17:02:01 mary CRON[9628]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 20 17:02:01 mary CRON[9628]: pam_unix(cron:session): session closed for user root
+Jun 20 17:03:01 mary CRON[9634]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 20 17:03:01 mary CRON[9634]: pam_unix(cron:session): session closed for user root
+Jun 20 17:04:01 mary CRON[9640]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 20 17:04:01 mary CRON[9640]: pam_unix(cron:session): session closed for user root
+Jun 20 17:05:01 mary CRON[9646]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 20 17:05:01 mary CRON[9646]: pam_unix(cron:session): session closed for user root
+Jun 20 17:06:01 mary CRON[9653]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 20 17:06:01 mary CRON[9653]: pam_unix(cron:session): session closed for user root
+Jun 20 17:07:01 mary CRON[9659]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 20 17:07:01 mary CRON[9659]: pam_unix(cron:session): session closed for user root
+Jun 20 17:08:01 mary CRON[9665]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 20 17:08:01 mary CRON[9665]: pam_unix(cron:session): session closed for user root
+Jun 20 17:09:01 mary CRON[9671]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 20 17:09:01 mary CRON[9671]: pam_unix(cron:session): session closed for user root
+Jun 20 17:10:01 mary CRON[9677]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 20 17:10:01 mary CRON[9677]: pam_unix(cron:session): session closed for user root
+Jun 20 17:11:01 mary CRON[9683]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 20 17:11:01 mary CRON[9683]: pam_unix(cron:session): session closed for user root
+Jun 20 17:12:01 mary CRON[9694]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 20 17:12:01 mary CRON[9694]: pam_unix(cron:session): session closed for user root
+Jun 20 17:13:01 mary CRON[9703]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 20 17:13:01 mary CRON[9703]: pam_unix(cron:session): session closed for user root
+Jun 20 17:14:01 mary CRON[9732]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 20 17:14:01 mary CRON[9732]: pam_unix(cron:session): session closed for user root
+Jun 20 17:14:11 mary su[9739]: pam_unix(su:auth): authentication failure; logname= uid=1000 euid=0 tty=/dev/pts/3 ruser=user rhost=  user=root
+Jun 20 17:14:13 mary su[9739]: pam_authenticate: Authentication failure
+Jun 20 17:14:13 mary su[9739]: FAILED su for root by user
+Jun 20 17:14:13 mary su[9739]: - /dev/pts/3 user:root
+Jun 20 17:14:18 mary su[9740]: pam_unix(su:auth): authentication failure; logname= uid=1000 euid=0 tty=/dev/pts/3 ruser=user rhost=  user=root
+Jun 20 17:14:20 mary su[9740]: pam_authenticate: Authentication failure
+Jun 20 17:14:20 mary su[9740]: FAILED su for root by user
+Jun 20 17:14:20 mary su[9740]: - /dev/pts/3 user:root
+Jun 20 17:14:31 mary su[9741]: pam_unix(su:auth): authentication failure; logname= uid=1000 euid=0 tty=/dev/pts/3 ruser=user rhost=  user=root
+Jun 20 17:14:32 mary su[9741]: pam_authenticate: Authentication failure
+Jun 20 17:14:32 mary su[9741]: FAILED su for root by user
+Jun 20 17:14:32 mary su[9741]: - /dev/pts/3 user:root
+Jun 20 17:14:37 mary su[9742]: pam_unix(su:auth): authentication failure; logname= uid=1000 euid=0 tty=/dev/pts/3 ruser=user rhost=  user=root
+Jun 20 17:14:39 mary su[9742]: pam_authenticate: Authentication failure
+Jun 20 17:14:39 mary su[9742]: FAILED su for root by user
+Jun 20 17:14:39 mary su[9742]: - /dev/pts/3 user:root
+Jun 20 17:15:01 mary CRON[9746]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 20 17:15:01 mary CRON[9746]: pam_unix(cron:session): session closed for user root
+Jun 20 17:16:01 mary CRON[9755]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 20 17:16:01 mary CRON[9755]: pam_unix(cron:session): session closed for user root
